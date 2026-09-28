@@ -19,7 +19,7 @@ An IoT-based smart energy monitoring and automated power theft detection system 
 | :--- | :--- | :--- | :--- |
 | **I2C LCD Display** | SDA | GPIO 21 | Data line for LCD |
 | | SCL | GPIO 22 | Clock line for LCD |
-| **Relay Module** | IN | GPIO 5 | Automated power cutoff signal |
+| **Relay Module** | IN | GPIO 26 | Automated power cutoff signal |
 | **Source PZEM-004T** | RX / TX | GPIO 16 / 17 | Serial2 communication (Grid side) |
 | **Load PZEM-004T** | RX / TX | GPIO 32 / 33 | Serial1 communication (Home side) |
 | **Indicators & Alert** | Red LED | GPIO 4 | Theft alert indicator |
